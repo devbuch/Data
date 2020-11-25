@@ -213,7 +213,7 @@ Minutes/Games
 bballplot(Minutes/Games)
 ```
 
-![unnamed-chunk-1-1.png](Basketball_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![unnamed-chunk-1-1.png](R/unnamed-chunk-1-1.png)<!-- -->
 
 We notice there’s a general downwards trend for minutes per game among
 all players. This may be due to a change in coaching strategy over time
