@@ -256,7 +256,7 @@ Points/Games
 bballplot(Points/Games)
 ```
 
-![](Basketball_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](R_images/ppg.png)<!-- -->
 
 3)  Free throw percentage
 
@@ -293,7 +293,7 @@ FreeThrows/FreeThrowAttempts*100
 bballplot(FreeThrows/FreeThrowAttempts*100)
 ```
 
-![](Basketball_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](R_images/ftp.png)<!-- -->
 
 There is a noticeable outlier at the bottom of the graph in Dwight
 Howard. One piece of information that is missing from our data is the
@@ -335,7 +335,7 @@ FieldGoals/FieldGoalAttempts*100
 bballplot(FieldGoals/FieldGoalAttempts*100)
 ```
 
-![](Basketball_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](R_images/fgp.png)<!-- -->
 
 Again, Dwight Howard is an outlier, except on the positive side of the
 average. This could be due to the same reason above, his position as a
@@ -363,7 +363,7 @@ few different metrics and comparisons.
 bballplot(Points/Games,1)
 ```
 
-![](Basketball_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](R_images/kobe.png)<!-- -->
 
 Kobe had a big drop during the 2013 season. This is likely due to the
 injury he suffered.
@@ -386,7 +386,7 @@ Salary[,"2010"]
 barplot(Salary[,"2010"],col=c("darkred"),names.arg=c("Bryant","Johnson","James","Anthony","Howard","Bosh","Paul","Durant","Rose","Wade"),las=2)
 ```
 
-![](Basketball_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](R_images/salaries.png)<!-- -->
 
 7)  Kevin Durant’s field goal percentage in 2013
 
@@ -439,7 +439,7 @@ the number is, the more 3-point-inclined the player is.
 bballplot((Points-FreeThrows)/FieldGoals)
 ```
 
-![](Basketball_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](R_images/2vs3pt.png)<!-- -->
 
 Dwight Howard is consistently close to 2, meaning he is very 2-point
 inclined. Like the previous analyses above, this is most likely due to
