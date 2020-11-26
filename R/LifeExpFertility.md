@@ -115,13 +115,13 @@ library(ggplot2)
 qplot(data=merged1960,x=Fertility.Rate,y=LifeExpectancy,color=Region,alpha=I(0.7),main="Life Expectancy vs Fertility 1960")
 ```
 
-![](LifeExpFertility_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](R_images/plot1960.png)<!-- -->
 
 ``` r
 qplot(data=merged2013,x=Fertility.Rate,y=LifeExpectancy,color=Region,alpha=I(0.7),main="Life Expectancy vs Fertility 2013")
 ```
 
-![](LifeExpFertility_files/figure-gfm/unnamed-chunk-5-2.png)<!-- -->
+![](R_images/plot2013.png)<!-- -->
 
 In the 1960 plot, there is a negative correlation between life
 expectancy and fertility rate, but it is not the strongest. Europe has
