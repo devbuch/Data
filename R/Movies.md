@@ -132,7 +132,7 @@ ggplot(data, aes(x=Genre,fill=Genre)) + geom_bar() +
   theme(axis.text.x=element_text(size=8,angle=65))
 ```
 
-![](Movies_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](R_images/genreplot.png)<!-- -->
 
 There are a lot more action movies in this dataset than any other genre
 of movie.
@@ -146,7 +146,7 @@ ggplot(data, aes(x=Day.of.Week,fill=Day.of.Week)) + geom_bar(color="black") +
   scale_fill_brewer(palette="Spectral")
 ```
 
-![](Movies_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](R_images/dayplot.png)<!-- -->
 
 Most movies were released on Friday, with the second most populated day
 being Wednesday.
@@ -159,7 +159,7 @@ being Wednesday.
 ggplot(data, aes(x=Runtime..min.)) + geom_histogram(binwidth=3,fill="darkgreen")
 ```
 
-![](Movies_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](R_images/runtimeplot.png)<!-- -->
 
 Most movie runtimes hover around the 100-125 minute mark, although there
 are a few outliers on the short and long end of the spectrum.
@@ -177,7 +177,7 @@ ggplot(data, aes(x=IMDb.Rating,y=MovieLens.Rating)) + geom_point(alpha=0.6) +
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Movies_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](R_images/ratingsplot.png)<!-- -->
 
 There seems to be a strong positive correlation between IMDb ratings and
 MovieLens ratings. There are only a couple of extreme outliers. The
@@ -197,7 +197,7 @@ ggplot(data, aes(x=Budget...mill.,y=Gross...US)) +
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Movies_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](R_images/budgetplot.png)<!-- -->
 
 It seems there is a negative correlation between budget and gross % in
 the US, although it is slight. The plot tells us that higher budget
@@ -227,7 +227,7 @@ geometries to represent all of our variables in different ways.
 ggplot(filtered_data,aes(x=Genre,y=Gross...US)) + geom_jitter(aes(size=Budget...mill.,color=Studio),alpha=0.6) + geom_boxplot(lwd=0.8,alpha=0.3)
 ```
 
-![](Movies_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](R_images/boxplot.png)<!-- -->
 
 Multiple things can be said using the information from this graph, some
 being the following:
